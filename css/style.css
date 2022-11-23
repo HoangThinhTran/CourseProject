@@ -46,13 +46,14 @@ section {
 /* || Typography */
 
 @font-face {
-    font-family: SEGOEUI;
+    font-family: SEGOEUI, normal;
     src:
         url("../fonts/SEGOEUI.ttf");
-        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff2) format("woff2"),
-        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff) format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff2) format("woff2");
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff) format("woff");
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.ttf) format("ttf");
     font-weight: 100;
-    font-style: normal;
+    font-style: italic;
 }
 
 body {
@@ -61,6 +62,7 @@ body {
 
 footer {
   font-size: smaller;
+  text-align: center;
 }
 
 /* || Navigation */
