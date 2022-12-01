@@ -201,7 +201,7 @@ figure {
 
 /* PHONE */
 
-@media screen and (min-width: 10px) and (max-width: 410px) {
+@media screen and (max-height: 800px) and (max-width: 410px) {
   main {
     flex-direction: column;
     align-items: center;
